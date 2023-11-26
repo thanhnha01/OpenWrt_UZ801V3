@@ -1,4 +1,4 @@
-name: Build OpenWrt
+name: UFI OpenWrt
 
 on:
   repository_dispatch:
