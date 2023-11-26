@@ -43,6 +43,7 @@ jobs:
     echo "UPLOAD_WETRANSFER=$UPLOAD_WETRANSFER" >> $GITHUB_ENV
     echo "STATUS=success" >> $GITHUB_ENV
 
+
 - name: Check space usage
   if: (!cancelled())
   run: df -hT
